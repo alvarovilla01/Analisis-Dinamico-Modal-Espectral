@@ -7,6 +7,7 @@ g = 9.81  # Aceleración de la gravedad (m/s2)
 with st.sidebar:
     st.header('Análisis Dinámico Modal Espectral')
     st.subheader('Proyecto Final — Python Aplicado a la Ingeniería Estructural')
+    st.sbheader('Elaborado por: Alvaro Villa')
 
     st.markdown("### Datos del edificio")
     r1, r2 = st.columns([1, 2], gap="medium")
